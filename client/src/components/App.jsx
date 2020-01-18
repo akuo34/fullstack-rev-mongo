@@ -56,8 +56,6 @@ export default class TodoList extends Component {
   }
 
   handleSubmit(event) {
-    event.persist();
-    console.log(event);
     event.preventDefault();
     this.postTodo();
   }
